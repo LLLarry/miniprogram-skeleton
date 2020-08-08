@@ -5,7 +5,7 @@
 <!--引入骨架屏模版 -->
 <skeleton a:if="{{showSkeleton}}"></skeleton>
 
-<!--index.alml-->
+<!--index.axml-->
 <!--给页面根节点class添加skeleton, 用于获取当前页面尺寸，没有的话就默认使用屏幕尺寸-->
 <view class="container skeleton">
     <view class="userinfo">
