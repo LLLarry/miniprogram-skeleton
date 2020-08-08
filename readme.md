@@ -3,9 +3,9 @@
 **使用方法：**
 ```jsx
 <!--引入骨架屏模版 -->
-<skeleton wx:if="{{showSkeleton}}"></skeleton>
+<skeleton a:if="{{showSkeleton}}"></skeleton>
 
-<!--index.wxml-->
+<!--index.alml-->
 <!--给页面根节点class添加skeleton, 用于获取当前页面尺寸，没有的话就默认使用屏幕尺寸-->
 <view class="container skeleton">
     <view class="userinfo">
@@ -18,7 +18,7 @@
         </block>
     </view>
     <view style="margin: 20px 0">
-        <view wx:for="{{lists}}" class="lists">
+        <view a:for="{{lists}}" class="lists">
             <icon type="success" size="20" class="list skeleton-radius"/>
             <text class="skeleton-rect">{{item}}</text>
         </view>
@@ -42,7 +42,7 @@ Page({
 	data: {
 		motto: 'Hello World',
 		userInfo: {
-			avatarUrl: 'https://wx.qlogo.cn/mmopen/vi_32/SYiaiba5faeraYBoQCWdsBX4hSjFKiawzhIpnXjejDtjmiaFqMqhIlRBqR7IVdbKE51npeF6X1cXxtDQD2bzehgqMA/132',
+			avatarUrl: 'https://a.qlogo.cn/mmopen/vi_32/SYiaiba5faeraYBoQCWdsBX4hSjFKiawzhIpnXjejDtjmiaFqMqhIlRBqR7IVdbKE51npeF6X1cXxtDQD2bzehgqMA/132',
 			nickName: 'jayzou'
 		},
 		lists: [
