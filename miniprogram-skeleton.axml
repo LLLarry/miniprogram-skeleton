@@ -1,0 +1,6 @@
+<view>
+  <view a:for="{{skeleton}}" a:key="{{index}}" style="{{item}}">
+    <view a:for="{{skeletonRect}}" a:key="{{index}}" style="{{item}}"></view>
+    <view a:for="{{skeletonRadius}}" a:key="{{index}}" style="{{item}}"></view>
+  </view>
+</view>
